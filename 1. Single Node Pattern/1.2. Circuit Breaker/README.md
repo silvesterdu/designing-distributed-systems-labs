@@ -155,7 +155,7 @@ But to group all the examples in this lab together, you will be creating a Resou
 
     az group create --name circuitbreaker --location "eastus"
 
-Then you will create the actual Azure Container Registry, which we will call ```circuitbreaker``:
+Then you will create the actual Azure Container Registry, which we will call ```circuitbreakerregistry``:
 
     az acr create --name circuitbreakerregistry --sku Basic --location eastus --admin-enabled --resource-group circuitbreaker
 
